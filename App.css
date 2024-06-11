@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9; /* Light grey background */
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+}
+
+.App-header {
+  background-color: #333439;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for the header */
+  box-shadow: 0 4px 8px 0 rgb(40, 40, 39); /* Subtle shadow */
+  margin: 0 auto;
+  width: 80%; /* Fixed width for larger screens */
+  max-width: 600px; /* Maximum width */
+  color: #ffffff; /* This sets the font color to white for all text inside .App-header */
+}
+
+/* If you want a specific color for only the h1 header, add this */
+.App-header h1 {
+  color: #ffffff; /* Replace with the color you want, e.g., #ffffff for white */
+}
+
+.Search-input {
+  width: 85%;
+  padding: 15px;
+  margin: 15px 0;
+  border: 2.5px solid #5db397; /* Light border color */
+  border-radius: 20px; /* Rounded corners for input */
+  font-size: 1rem;
+  outline: none; /* Removes the default focus outline */
+}
+
+.Search-button {
+  padding: 12px 22px;
+  background-color: #5a5ab0;
+  border: none;
+  border-radius: 20px; /* Rounded corners for button */
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  margin-left: -50px; /* Overlap the button with the input */
+  position: center;
+  z-index: 2; /* Ensures the button overlaps the input */
+}
+
+.Search-button:hover {
+  background-color: #47478a;
+}
+
+.Results {
+  text-align: left;
+  background-color: #a4e7c3;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for results */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); /* Subtle shadow */
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px; /* Maximum width to align with the header */
+}
