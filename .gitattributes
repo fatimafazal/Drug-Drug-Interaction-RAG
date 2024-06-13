@@ -1,0 +1,12 @@
+# Treat Jupyter notebooks as Python files for language statistics
+*.ipynb linguist-language=Python
+
+# Ensure Python files are recognized correctly
+*.py linguist-language=Python
+
+# Do not ignore JavaScript and CSS files
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+
+# Ignore HTML files from the language statistics
+*.html linguist-detectable=false
